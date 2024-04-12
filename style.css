@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+h1{
+    color: black;
+    text-align: center;
+    border-bottom: 2px solid black;
+    margin: 1% 30%;
+    /* max-width: 900px; */
+}
+
+div{
+    background: linear-gradient(#5C258D, #4389A2);
+    margin: 1% 30%;
+    padding: 1%;
+}
+
+p{
+    background-color: rgb(88, 143, 255);
+    padding: 2%;
+    margin: 5%;
+}
+
+.name {
+    background-color: #002582;
+    margin-left: 2%;
+    padding: 2.5% 2%;
+}
