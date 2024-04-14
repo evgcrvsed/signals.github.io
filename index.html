@@ -1,20 +1,41 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>App`s name</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>MINES HACK</title>
 </head>
+
 <body>
-    <div id="container">
-        <img id="image" src="">
-        <div id="AI_container">
-            <h1 class="h1">AI is thinking...</h1>
-            <canvas id="canvas" width="150" height="150"></canvas>
+    <div class="container">
+      <div class="decor">
+        <img class="one-win" src="assets/icons/1win.svg" alt="1win">
+        <img src="assets/icons/2win.png" alt="1win" class="two-win">
+      </div>
+      <div class="text-top">
+        <h1 class="text-title">MINES HACK</h1>
+        <p class="text-subtitle">@MinesMasterHackBot</p>
+      </div>
+      <div class="game-screen">
+        <div class="screen-active">
+          <img draggable="false" id="screenStart" class="screenStart" src="assets/icons/start.svg" alt="start">
+          <img draggable="false" src="assets/gifs/loading.gif" alt="loading" id="loading" class="loading deactive">
+          <img draggable="false" src="" id="img-signal" alt="signal" class="img-signal deactive">
         </div>
-        <a href="#" id="button" class="button color neon">Get signal!</a>
+      </div>
+      <div class="game-button">
+        <button id="get-signal" class="get-signal">Get Signal</button>
+        <a href="https://t.me/MinesMasterHackBot" class="game-here">GAME HERE</a>
+      </div>
     </div>
-    <script src="main.js"></script>
+  <div class="background"></div>
+
+  <script src="sctipt.js"></script>
 </body>
+
 </html>
